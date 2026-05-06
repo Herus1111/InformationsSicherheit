@@ -92,13 +92,6 @@
               "containedElements": [
                 "9b2f6b8e-87d1-4650-84dd-d626af284a6c"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -886,8 +879,8 @@
             },
             "vertices": [
               {
-                "x": 670,
-                "y": 300
+                "x": 610,
+                "y": 325
               }
             ]
           },
