@@ -87,7 +87,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "fffdf439-6aec-4a61-8501-333bcedc5068"
+                "fffdf439-6aec-4a61-8501-333bcedc5068",
+                "9c6660e8-d2ee-4df7-b13d-0183bef77533"
               ],
               "containedElements": [
                 "9b2f6b8e-87d1-4650-84dd-d626af284a6c"
@@ -1042,6 +1043,60 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "fa0f6fe5-02a6-4df0-9f6f-cdfdea10240f"
+              ]
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "9c6660e8-d2ee-4df7-b13d-0183bef77533",
+            "source": {
+              "x": 890,
+              "y": 504
+            },
+            "target": {
+              "cell": "9b2f6b8e-87d1-4650-84dd-d626af284a6c",
+              "port": "d39d7a60-087a-4b5d-9464-9e940d9a8cba"
+            },
+            "vertices": [
+              {
+                "x": 1170,
+                "y": 470
+              }
+            ]
+          },
+          {
             "position": {
               "x": 680,
               "y": 290
@@ -1644,7 +1699,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1661,7 +1716,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
