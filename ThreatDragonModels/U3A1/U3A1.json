@@ -43,20 +43,12 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "62b8181d-d1a0-46bf-afcc-73ff6af48978",
-                "93275653-f807-4a9e-9266-731276c57369",
-                "c52bedcf-fc23-41e5-b5cc-e11196201688"
+                "93275653-f807-4a9e-9266-731276c57369"
               ],
               "containedElements": [
                 "d715c64d-f245-40b4-8d1e-5c4366fb1cd6",
-                "7c0c2bcc-1bba-40bc-9e7e-91179a19dc4f"
+                "e9871721-3f06-4d2d-a6af-5c0b72d77cda"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -206,130 +198,6 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 800,
-              "y": 290
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "E-Mail-Server "
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 2,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "75891598-20dc-46b8-9e90-1d294cc1e557"
-                },
-                {
-                  "group": "right",
-                  "id": "fb126911-a4cc-4078-abf4-a338df9250c3"
-                },
-                {
-                  "group": "bottom",
-                  "id": "0422b035-e89e-498e-baca-04b08ac6efa5"
-                },
-                {
-                  "group": "left",
-                  "id": "c85d1a2f-0402-4212-b7fc-11da17cccf5a"
-                }
-              ]
-            },
-            "id": "7c0c2bcc-1bba-40bc-9e7e-91179a19dc4f",
-            "data": {
-              "type": "tm.Store",
-              "name": "E-Mail-Server",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
               "threats": []
             }
           },
@@ -698,7 +566,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Partnern"
+                "text": "Partner "
               },
               "body": {
                 "stroke": "#333333",
@@ -848,13 +716,13 @@
               "y": 180
             },
             "target": {
-              "cell": "d715c64d-f245-40b4-8d1e-5c4366fb1cd6",
+              "cell": "e9871721-3f06-4d2d-a6af-5c0b72d77cda",
               "port": "8f03347c-7228-4d3e-9e4e-bf6fc3ba88ca"
             },
             "vertices": [
               {
-                "x": 740,
-                "y": 180
+                "x": 710,
+                "y": 210
               }
             ]
           },
@@ -902,63 +770,135 @@
               "y": 265
             },
             "target": {
-              "cell": "d715c64d-f245-40b4-8d1e-5c4366fb1cd6",
+              "cell": "e9871721-3f06-4d2d-a6af-5c0b72d77cda",
               "port": "8f03347c-7228-4d3e-9e4e-bf6fc3ba88ca"
             },
             "vertices": [
               {
                 "x": 710,
-                "y": 230
+                "y": 265
               }
             ]
           },
           {
-            "shape": "flow",
+            "position": {
+              "x": 825,
+              "y": 255
+            },
+            "size": {
+              "width": 70,
+              "height": 70
+            },
             "attrs": {
-              "line": {
+              "text": {
+                "text": "E-Mail-\nServer "
+              },
+              "body": {
                 "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3469504e-b9a0-4b6d-866d-2abd61ab8e79"
+                },
+                {
+                  "group": "right",
+                  "id": "4cc3c6ee-a4d5-4b0d-b8dc-432052659053"
+                },
+                {
+                  "group": "bottom",
+                  "id": "d39d7a60-087a-4b5d-9464-9e940d9a8cba"
+                },
+                {
+                  "group": "left",
+                  "id": "8f03347c-7228-4d3e-9e4e-bf6fc3ba88ca"
+                }
+              ]
+            },
+            "id": "e9871721-3f06-4d2d-a6af-5c0b72d77cda",
             "data": {
-              "type": "tm.Flow",
-              "name": "TLS",
+              "type": "tm.Process",
+              "name": "E-Mail-\nServer",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "7f102427-90a1-47bf-a628-203865b63a39"
-              ]
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             },
-            "labels": [
-              "TLS "
-            ],
-            "id": "c52bedcf-fc23-41e5-b5cc-e11196201688",
-            "source": {
-              "x": 861,
-              "y": 215
-            },
-            "target": {
-              "cell": "7c0c2bcc-1bba-40bc-9e7e-91179a19dc4f",
-              "port": "75891598-20dc-46b8-9e90-1d294cc1e557"
-            }
+            "zIndex": 11
           }
         ]
       }
