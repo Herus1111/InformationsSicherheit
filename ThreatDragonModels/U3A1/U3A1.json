@@ -64,8 +64,8 @@
           },
           {
             "position": {
-              "x": 1060,
-              "y": 160
+              "x": 120,
+              "y": 205.00000000000017
             },
             "size": {
               "width": 270,
@@ -93,6 +93,13 @@
               "containedElements": [
                 "9b2f6b8e-87d1-4650-84dd-d626af284a6c"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -254,8 +261,8 @@
           },
           {
             "position": {
-              "x": 410,
-              "y": 95
+              "x": -200,
+              "y": 180
             },
             "size": {
               "width": 112.5,
@@ -371,8 +378,8 @@
           },
           {
             "position": {
-              "x": 1180,
-              "y": 220
+              "x": 240,
+              "y": 270
             },
             "size": {
               "width": 90,
@@ -983,12 +990,12 @@
             },
             "vertices": [
               {
-                "x": 760,
-                "y": 30
+                "x": -180,
+                "y": 80
               },
               {
-                "x": 1030,
-                "y": 60
+                "x": 90,
+                "y": 110
               }
             ]
           },
@@ -1082,8 +1089,8 @@
             ],
             "id": "9c6660e8-d2ee-4df7-b13d-0183bef77533",
             "source": {
-              "x": 890,
-              "y": 504
+              "x": -50,
+              "y": 554
             },
             "target": {
               "cell": "9b2f6b8e-87d1-4650-84dd-d626af284a6c",
@@ -1091,8 +1098,8 @@
             },
             "vertices": [
               {
-                "x": 1170,
-                "y": 470
+                "x": 230,
+                "y": 520
               }
             ]
           },
@@ -1816,6 +1823,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1912,8 +1920,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 18
+            }
           }
         ]
       }
