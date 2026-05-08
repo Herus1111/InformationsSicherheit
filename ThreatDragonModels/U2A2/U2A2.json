@@ -535,53 +535,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "a899a964-dddd-4820-a944-c03f672ab2d6",
-            "source": {
-              "cell": "92b7963c-34b7-415a-a52e-d5d1c17cfd00",
-              "port": "c2063021-64d4-4392-992b-33aa72959745"
-            },
-            "target": {
-              "cell": "be859fbe-1372-4bc3-862a-11de980b280e",
-              "port": "729898dc-d960-4441-b11e-7315aee1a4f0"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Anfragen ",
               "description": "",
               "outOfScope": false,
@@ -607,67 +560,7 @@
               "cell": "493467ad-871f-485a-8a30-5209dafdcdee",
               "port": "07bc3f1d-eb05-4367-af99-db11d2126960"
             },
-            "vertices": [],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -713,6 +606,53 @@
             "target": {
               "cell": "be859fbe-1372-4bc3-862a-11de980b280e",
               "port": "e008e98f-c05e-4712-a154-6d9b67653072"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "a899a964-dddd-4820-a944-c03f672ab2d6",
+            "source": {
+              "cell": "92b7963c-34b7-415a-a52e-d5d1c17cfd00",
+              "port": "c2063021-64d4-4392-992b-33aa72959745"
+            },
+            "target": {
+              "cell": "be859fbe-1372-4bc3-862a-11de980b280e",
+              "port": "729898dc-d960-4441-b11e-7315aee1a4f0"
             },
             "vertices": []
           },
@@ -784,6 +724,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -867,7 +808,6 @@
               ]
             },
             "id": "f49f5c8d-d522-474e-9bc2-0fe877b75d4c",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Webanwendung-Konfiguration ",
@@ -904,6 +844,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -987,7 +928,6 @@
               ]
             },
             "id": "52ace34c-6385-4bae-bfb8-9a1909a43958",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Nachrichtenwarteschlange",
@@ -1024,6 +964,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1107,7 +1048,6 @@
               ]
             },
             "id": "1d62b348-6dea-465a-8dff-3d6f5bf160b3",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Hintergrundprozess-Konfiguration ",
@@ -1147,6 +1087,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1230,7 +1171,6 @@
               ]
             },
             "id": "be859fbe-1372-4bc3-862a-11de980b280e",
-            "zIndex": 16,
             "data": {
               "type": "tm.Store",
               "name": "Datenbank ",
