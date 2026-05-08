@@ -469,130 +469,6 @@
             "vertices": []
           },
           {
-            "position": {
-              "x": 890,
-              "y": 383
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Nachrichtenwarteschlange"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 11,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "bbfd34e2-8854-4bf9-a715-bf1d6977c428"
-                },
-                {
-                  "group": "right",
-                  "id": "8a1e4dc2-2dca-450c-b2b6-17042be73b2b"
-                },
-                {
-                  "group": "bottom",
-                  "id": "622be5db-8104-4b6e-ae77-3a6d894b0636"
-                },
-                {
-                  "group": "left",
-                  "id": "a69b6a8b-e605-4a81-ace8-a1e960438f65"
-                }
-              ]
-            },
-            "id": "be6456b2-c256-4a72-b971-c3e477b78861",
-            "data": {
-              "type": "tm.Store",
-              "name": "Nachrichtenwarteschlange ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -634,8 +510,8 @@
               "port": "89528abb-f5fc-4f1a-96d2-7a6d82b1c52a"
             },
             "target": {
-              "cell": "be6456b2-c256-4a72-b971-c3e477b78861",
-              "port": "bbfd34e2-8854-4bf9-a715-bf1d6977c428"
+              "cell": "52ace34c-6385-4bae-bfb8-9a1909a43958",
+              "port": "78315aa9-da0d-44d4-9532-852de4cc93ed"
             },
             "vertices": []
           },
@@ -747,6 +623,126 @@
             "data": {
               "type": "tm.Process",
               "name": "Webanwendung-Konfiguration ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 900,
+              "y": 370
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Nachrichtenwarteschlange "
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "77c4f615-e5fa-49f2-9ce0-69fdec976d7d"
+                },
+                {
+                  "group": "right",
+                  "id": "4902ed5f-2cfd-4907-812c-fde78391eb3e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7d94c8d8-5840-4b71-aea3-03b5f8fc0aa9"
+                },
+                {
+                  "group": "left",
+                  "id": "78315aa9-da0d-44d4-9532-852de4cc93ed"
+                }
+              ]
+            },
+            "id": "52ace34c-6385-4bae-bfb8-9a1909a43958",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Process",
+              "name": "Nachrichtenwarteschlange",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
