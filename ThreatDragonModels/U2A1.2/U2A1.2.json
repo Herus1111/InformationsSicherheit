@@ -47,7 +47,7 @@
                 "fd87834f-cb5a-4635-a6e6-74af419d75c7",
                 "1b37fdd3-18a2-4c2d-90b3-af1ec00f264e",
                 "2fce2ab9-9cfd-4854-8b43-ef7a42a47ef0",
-                "39bd328e-32b1-441f-b496-a7f48cd8bc07"
+                "6e88f252-29f7-4c5f-a8ab-c516dbcb4ecd"
               ],
               "containedElements": [
                 "ca6485e8-0126-4d59-ba28-06885468dd10",
@@ -58,13 +58,6 @@
                 "796c3a20-a2a2-432d-bc24-ff4d3b2a040d",
                 "8b900fb1-a78c-48c2-b452-39075aa2ce8b"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1862,14 +1855,14 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "39bd328e-32b1-441f-b496-a7f48cd8bc07",
+            "id": "6e88f252-29f7-4c5f-a8ab-c516dbcb4ecd",
             "source": {
               "x": 280,
               "y": 390
             },
             "target": {
               "cell": "8b900fb1-a78c-48c2-b452-39075aa2ce8b",
-              "port": "0cc8d461-66a0-4267-9f26-440e7da583a3"
+              "port": "c8c64e00-0597-4d4f-8807-0b0ccb5d9551"
             }
           }
         ]
