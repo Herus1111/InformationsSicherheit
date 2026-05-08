@@ -394,100 +394,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "54ea5c89-630d-4979-9b7e-caa259e3bed4",
-            "source": {
-              "cell": "52ace34c-6385-4bae-bfb8-9a1909a43958",
-              "port": "77c4f615-e5fa-49f2-9ce0-69fdec976d7d"
-            },
-            "target": {
-              "cell": "92b7963c-34b7-415a-a52e-d5d1c17cfd00",
-              "port": "601c719d-a2a5-468c-b408-606786cf0c41"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "4b911ae6-0dba-4461-9d0b-6747206ca922",
-            "source": {
-              "cell": "52ace34c-6385-4bae-bfb8-9a1909a43958",
-              "port": "77c4f615-e5fa-49f2-9ce0-69fdec976d7d"
-            },
-            "target": {
-              "cell": "1d62b348-6dea-465a-8dff-3d6f5bf160b3",
-              "port": "7d94c8d8-5840-4b71-aea3-03b5f8fc0aa9"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Anfragen ",
               "description": "",
               "outOfScope": false,
@@ -672,11 +578,11 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 12,
+            "zIndex": 10,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Zeitintensive Aufgaben ",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -690,138 +596,185 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Zeitintensive Aufgaben"
+              "Data Flow"
             ],
-            "id": "1e35d4cb-c055-4040-925a-44a78f14e7b7",
+            "id": "54ea5c89-630d-4979-9b7e-caa259e3bed4",
             "source": {
-              "cell": "493467ad-871f-485a-8a30-5209dafdcdee",
-              "port": "89528abb-f5fc-4f1a-96d2-7a6d82b1c52a"
+              "cell": "9cdb0550-6fc4-4c99-adc3-108454b137ed",
+              "port": "d0cfc6f7-99ea-4743-a108-cf03c73f7bc3"
             },
             "target": {
-              "cell": "52ace34c-6385-4bae-bfb8-9a1909a43958",
-              "port": "78315aa9-da0d-44d4-9532-852de4cc93ed"
+              "cell": "92b7963c-34b7-415a-a52e-d5d1c17cfd00",
+              "port": "601c719d-a2a5-468c-b408-606786cf0c41"
             },
-            "vertices": []
+            "vertices": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
-            "position": {
-              "x": 920,
-              "y": 350
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
+            "shape": "flow",
             "attrs": {
-              "text": {
-                "text": "Nachrichtenwarteschlange "
-              },
-              "body": {
+              "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
                 "strokeDasharray": null
               }
             },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 14,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "77c4f615-e5fa-49f2-9ce0-69fdec976d7d"
-                },
-                {
-                  "group": "right",
-                  "id": "4902ed5f-2cfd-4907-812c-fde78391eb3e"
-                },
-                {
-                  "group": "bottom",
-                  "id": "7d94c8d8-5840-4b71-aea3-03b5f8fc0aa9"
-                },
-                {
-                  "group": "left",
-                  "id": "78315aa9-da0d-44d4-9532-852de4cc93ed"
-                }
-              ]
-            },
-            "id": "52ace34c-6385-4bae-bfb8-9a1909a43958",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
-              "type": "tm.Process",
-              "name": "Nachrichtenwarteschlange",
+              "type": "tm.Flow",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "4b911ae6-0dba-4461-9d0b-6747206ca922",
+            "source": {
+              "cell": "9cdb0550-6fc4-4c99-adc3-108454b137ed",
+              "port": "d0cfc6f7-99ea-4743-a108-cf03c73f7bc3"
+            },
+            "target": {
+              "cell": "1d62b348-6dea-465a-8dff-3d6f5bf160b3",
+              "port": "7d94c8d8-5840-4b71-aea3-03b5f8fc0aa9"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -1193,14 +1146,17 @@
           },
           {
             "position": {
-              "x": 1169,
-              "y": 390
+              "x": 890,
+              "y": 305
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Nachrichtenwarteschlange"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -1298,7 +1254,7 @@
             "zIndex": 18,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Nachrichtenwarteschlange ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1311,6 +1267,53 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 19,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Zeitintensive Aufgaben ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Zeitintensive Aufgaben"
+            ],
+            "id": "1e35d4cb-c055-4040-925a-44a78f14e7b7",
+            "source": {
+              "cell": "493467ad-871f-485a-8a30-5209dafdcdee",
+              "port": "89528abb-f5fc-4f1a-96d2-7a6d82b1c52a"
+            },
+            "target": {
+              "cell": "9cdb0550-6fc4-4c99-adc3-108454b137ed",
+              "port": "ce01eb63-ab72-4bbc-90c1-bb8f00a292d5"
+            },
+            "vertices": []
           }
         ]
       }
