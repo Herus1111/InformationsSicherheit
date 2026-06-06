@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 506.25,
-              "y": 232.00000000000108
+              "x": 66.24999999999915,
+              "y": 20.00000000000017
             },
             "size": {
-              "width": 160,
-              "height": 160
+              "width": 420,
+              "height": 440
             },
             "attrs": {
               "label": {
@@ -43,10 +43,14 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "41227366-2e91-4d7d-b6d3-e945c05b970b",
-                "1327e118-22b4-4d70-bdc7-cde6f36ff792"
+                "1327e118-22b4-4d70-bdc7-cde6f36ff792",
+                "1165cb7b-c98f-4d58-9bfb-d3976a4e93bc",
+                "f53e5b2c-0f32-4e19-944f-5f08b30c51de"
               ],
               "containedElements": [
-                "60822fc3-57d0-4f94-8595-2cc2c1d08d03"
+                "aa621b6b-a52f-4382-aeda-806c233dd915",
+                "1a11ab56-924c-470f-90e2-47369424ae7b",
+                "ecb34698-d8b9-4d47-85c2-fee81e74a118"
               ]
             }
           },
@@ -1022,6 +1026,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "d4b54df9-08de-481a-a656-f91893dd32a1",
                 "b940669c-5090-4de9-b304-3dd0bbfcb957"
               ]
             },
@@ -1071,6 +1076,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "d4b54df9-08de-481a-a656-f91893dd32a1",
                 "b940669c-5090-4de9-b304-3dd0bbfcb957"
               ]
             },
@@ -1149,17 +1155,7 @@
                 "x": 220,
                 "y": 150
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           }
         ]
       }
