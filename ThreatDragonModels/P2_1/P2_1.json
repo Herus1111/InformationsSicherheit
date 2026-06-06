@@ -77,12 +77,20 @@
               "crossingFlows": [
                 "8fb20cc6-3589-47b2-b27d-02a249d9a4e3",
                 "1165cb7b-c98f-4d58-9bfb-d3976a4e93bc",
-                "f53e5b2c-0f32-4e19-944f-5f08b30c51de"
+                "f53e5b2c-0f32-4e19-944f-5f08b30c51de",
+                "6f663238-8d82-44b6-b9a8-e49c03cf4383"
               ],
               "containedElements": [
                 "e9923999-cdb3-4a1c-9b3c-c256ac42e589",
                 "e7e7ec5f-9015-4f2a-b55d-82ba56a101ca"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1058,7 +1066,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Logindaten",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1074,7 +1082,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Logindaten"
             ],
             "id": "f53e5b2c-0f32-4e19-944f-5f08b30c51de",
             "source": {
@@ -1085,36 +1093,70 @@
               "cell": "e7e7ec5f-9015-4f2a-b55d-82ba56a101ca",
               "port": "ed695061-bb6d-4745-a628-bf6d7603efbd"
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "vertices": [
+              {
+                "x": 420,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Logindaten",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "b940669c-5090-4de9-b304-3dd0bbfcb957"
+              ]
+            },
+            "labels": [
+              "Logindaten"
+            ],
+            "id": "6f663238-8d82-44b6-b9a8-e49c03cf4383",
+            "source": {
+              "x": 220,
+              "y": 390
+            },
+            "target": {
+              "cell": "e7e7ec5f-9015-4f2a-b55d-82ba56a101ca",
+              "port": "ed695061-bb6d-4745-a628-bf6d7603efbd"
+            },
+            "vertices": [
+              {
+                "x": 100,
+                "y": 310
+              },
+              {
+                "x": 220,
+                "y": 150
+              }
+            ]
           }
         ]
       }
