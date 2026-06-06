@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 719.9999999999998,
-              "y": 342.0000000000011
+              "x": 426.25,
+              "y": 232.00000000000108
             },
             "size": {
-              "width": 460,
-              "height": 240
+              "width": 160,
+              "height": 160
             },
             "attrs": {
               "label": {
@@ -41,8 +41,20 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "crossingFlows": [
+                "41227366-2e91-4d7d-b6d3-e945c05b970b",
+                "1327e118-22b4-4d70-bdc7-cde6f36ff792"
+              ],
+              "containedElements": [
+                "60822fc3-57d0-4f94-8595-2cc2c1d08d03"
+              ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -866,7 +878,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d4b54df9-08de-481a-a656-f91893dd32a1"
+              ]
             },
             "labels": [
               "Buchdaten"
@@ -912,7 +926,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d4b54df9-08de-481a-a656-f91893dd32a1"
+              ]
             },
             "labels": [
               "Buchdaten"
