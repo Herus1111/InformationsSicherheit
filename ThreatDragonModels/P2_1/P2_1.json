@@ -79,10 +79,10 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "8fb20cc6-3589-47b2-b27d-02a249d9a4e3",
                 "1165cb7b-c98f-4d58-9bfb-d3976a4e93bc",
                 "f53e5b2c-0f32-4e19-944f-5f08b30c51de",
-                "6f663238-8d82-44b6-b9a8-e49c03cf4383"
+                "6f663238-8d82-44b6-b9a8-e49c03cf4383",
+                "8fb20cc6-3589-47b2-b27d-02a249d9a4e3"
               ],
               "containedElements": [
                 "e9923999-cdb3-4a1c-9b3c-c256ac42e589",
@@ -949,60 +949,6 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "b940669c-5090-4de9-b304-3dd0bbfcb957"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "8fb20cc6-3589-47b2-b27d-02a249d9a4e3",
-            "source": {
-              "x": 650,
-              "y": 310
-            },
-            "target": {
-              "cell": "e9923999-cdb3-4a1c-9b3c-c256ac42e589",
-              "port": "825043a1-6af0-4cfd-bf2f-9ea1500145aa"
-            },
-            "vertices": [
-              {
-                "x": 1040,
-                "y": 340
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
                   "name": ""
                 },
                 "strokeDasharray": null
@@ -1154,6 +1100,60 @@
               {
                 "x": 220,
                 "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Buchdaten",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "b940669c-5090-4de9-b304-3dd0bbfcb957"
+              ]
+            },
+            "labels": [
+              "Buchdaten"
+            ],
+            "id": "8fb20cc6-3589-47b2-b27d-02a249d9a4e3",
+            "source": {
+              "x": 650,
+              "y": 310
+            },
+            "target": {
+              "cell": "e9923999-cdb3-4a1c-9b3c-c256ac42e589",
+              "port": "825043a1-6af0-4cfd-bf2f-9ea1500145aa"
+            },
+            "vertices": [
+              {
+                "x": 1040,
+                "y": 340
               }
             ]
           }
