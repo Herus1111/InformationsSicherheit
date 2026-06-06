@@ -84,13 +84,6 @@
                 "e9923999-cdb3-4a1c-9b3c-c256ac42e589",
                 "e7e7ec5f-9015-4f2a-b55d-82ba56a101ca"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1156,7 +1149,17 @@
                 "x": 220,
                 "y": 150
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
